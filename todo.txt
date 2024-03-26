@@ -1,0 +1,31 @@
+Determine if, where, and how large of capacitors are needed for each motor driver.
+-see TMC2209 charge pump pins
+-see recommended filtering for TMC2209 VS
+
+choose motor sense resistors or investigate if internal sense resistors are sufficient
+
+choose proper led footprint
+
+Find out why in this video, the usb pins on the esp32 don't match up with the datasheet,
+or find more examples of pins 25 and 26 being used for usb connection
+https://www.youtube.com/watch?v=jiJGbWOSdMo
+
+Add more XT60 connectors to distribute power to ESC controllers. Calculate total power draw of system
+
+PWM fan connector
+
+on board thermister?
+
+servo connector
+
+map all unused IO to header pins
+
+hall effect sensor IO. Need level shifting?
+
+Test before ordering:
+
+- ESP32 hardware UART both rx and tx tied together.
+
+- address multiple controllers on same line
+
+
