@@ -9934,6 +9934,17 @@
 		)
 		(uuid "179c764a-2747-4cac-b6a7-b84b39cb6362")
 	)
+	(label "+5VUSB"
+		(at 86.36 229.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a106d84-1238-422f-844f-91df2705a121")
+	)
 	(label "HV3"
 		(at 139.7 198.12 180)
 		(fields_autoplaced yes)
@@ -10252,6 +10263,17 @@
 			(justify left bottom)
 		)
 		(uuid "621b9033-8f27-494e-ba1f-a0e30b440aa2")
+	)
+	(label "+5VUSB"
+		(at 25.4 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6281e22b-800f-4b49-b7c7-971b4ef80847")
 	)
 	(label "LV_SIGNAL_3"
 		(at 68.58 59.69 180)
@@ -13673,73 +13695,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 86.36 229.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40cfbb6b-e4cf-484a-b6e6-7b09ba710f0c")
-		(property "Reference" "#PWR055"
-			(at 82.55 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 90.17 229.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 86.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 86.36 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5112ab37-1807-44ae-bf4a-a8fbf7f36927")
-		)
-		(instances
-			(project "launcher_mainboard"
-				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 168.91 31.75 0)
 		(unit 1)
@@ -16672,73 +16627,6 @@
 			(project "launcher_mainboard"
 				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 25.4 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "865067e1-16b3-4674-a1f9-6ff993b836cd")
-		(property "Reference" "#PWR056"
-			(at 29.21 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 21.59 182.8799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 25.4 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4462cb6c-c463-491c-814b-c845fc4ee172")
-		)
-		(instances
-			(project "launcher_mainboard"
-				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
-					(reference "#PWR056")
 					(unit 1)
 				)
 			)

@@ -21,8 +21,8 @@ map all unused IO to header pins
 how does transister hfe work? The datasheet gives a bunch of values. Must tune base resistor for 
 led driver
 
-is it fine to have the usb and battery connected at the same time? There will be two 5V and 3.3V 
-sources which could cause current flow between them. Maybe a diode on the outputs are enough?
+Add power source selection for 3.3v (see uno schem). Require battery for 5v rail and isolate 5vusb rail.
+USB power should only be for programming and for debugging microcontroller
 
 Should I power the LEDs with the 3.3v or 5v rail?
 
