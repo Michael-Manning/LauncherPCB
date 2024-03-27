@@ -2,30 +2,48 @@ Determine if, where, and how large of capacitors are needed for each motor drive
 -see TMC2209 charge pump pins
 -see recommended filtering for TMC2209 VS
 
-choose motor sense resistors or investigate if internal sense resistors are sufficient
-
-choose proper led footprint
+choose proper led footprint for both power smd and indicator LEDs
 
 Find out why in this video, the usb pins on the esp32 don't match up with the datasheet,
 or find more examples of pins 25 and 26 being used for usb connection
 https://www.youtube.com/watch?v=jiJGbWOSdMo
 
-Add more XT60 connectors to distribute power to ESC controllers. Calculate total power draw of system
+Calculate total power draw of system
 
-PWM fan connector
+solenoide driver
 
-on board thermister?
+connectors for endstops and potentiometers
 
-servo connector
+4 endstop inputs with voltage dividers for 5v reading
 
 map all unused IO to header pins
 
-hall effect sensor IO. Need level shifting?
+how does transister hfe work? The datasheet gives a bunch of values. Must tune base resistor for 
+led driver
+
+is it fine to have the usb and battery connected at the same time? There will be two 5V and 3.3V 
+sources which could cause current flow between them. Maybe a diode on the outputs are enough?
+
+Should I power the LEDs with the 3.3v or 5v rail?
 
 Test before ordering:
 
 - ESP32 hardware UART both rx and tx tied together.
 
 - address multiple controllers on same line
+
+- verify copy and pasted usb regulator design and resistor values
+
+-- LAyout::-----------
+
+
+verify fan connector for chosen fan.
+
+verify fan polarity
+
+verify fuse slot for chosen fuse
+
+download smd version of 2n3904
+
 
 
