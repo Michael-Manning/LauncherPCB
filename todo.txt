@@ -21,6 +21,8 @@ map all unused IO to header pins
 how does transister hfe work? The datasheet gives a bunch of values. Must tune base resistor for 
 led driver
 
+Are the usb signal lines 5V? Is that okay for the ESP32?
+
 Add power source selection for 3.3v (see uno schem). Require battery for 5v rail and isolate 5vusb rail.
 USB power should only be for programming and for debugging microcontroller
 
