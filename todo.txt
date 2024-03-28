@@ -10,6 +10,10 @@ https://www.youtube.com/watch?v=jiJGbWOSdMo
 
 Calculate total power draw of system
 
+look at fixed 5v to 3.3v regulator instead of adjustable regulator for 5v usb to 3.3vusb
+
+switch external header to one with more pins for extra power rails. Should have at least 8 ground pins for convenience
+
 solenoide driver
 
 connectors for endstops and potentiometers
@@ -22,9 +26,6 @@ how does transister hfe work? The datasheet gives a bunch of values. Must tune b
 led driver
 
 Are the usb signal lines 5V? Is that okay for the ESP32?
-
-Add power source selection for 3.3v (see uno schem). Require battery for 5v rail and isolate 5vusb rail.
-USB power should only be for programming and for debugging microcontroller
 
 Should I power the LEDs with the 3.3v or 5v rail?
 

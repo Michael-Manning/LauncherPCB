@@ -1,3 +1,5 @@
 https://www.analog.com/en/resources/technical-articles/primer-on-powerpath-controllers-ideal-diodes-prioritizers.html
 
 https://www.analog.com/media/en/technical-documentation/data-sheets/max40200.pdf
+
+https://grabcad.com/library/bigtreetech-tmc-2209-v1-2-1
