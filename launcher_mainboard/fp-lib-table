@@ -3,4 +3,5 @@
   (lib (name "TMC2209-LA-T")(type "KiCad")(uri "${KIPRJMOD}/UltraLibrarian/TMC2209-LA-T/footprints.pretty")(options "")(descr ""))
   (lib (name "CustomFootprints")(type "KiCad")(uri "${KIPRJMOD}/CustomFootprints.pretty")(options "")(descr ""))
   (lib (name "LM66200")(type "KiCad")(uri "${KIPRJMOD}/UltraLibrarian/LM66200/footprints.pretty")(options "")(descr ""))
+  (lib (name "PTS636")(type "KiCad")(uri "${KIPRJMOD}/UltraLibrarian/PTS636_SM43_SMTR_LFS/footprints.pretty")(options "")(descr ""))
 )
