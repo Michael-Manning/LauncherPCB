@@ -6,7 +6,15 @@ Determine if, where, and how large of capacitors are needed for each motor drive
 
 Calculate total power draw of system
 
+fan driver mosfet choice incorrect. Change or investigate 4 pin fan option.
+probably use this mosfet https://www.digikey.ca/en/products/detail/panjit-international-inc/PJC7400-R1-00001/14660010
 
+Verify fan control is mapped to a pwm pin
+
+Mike says to disconnect USB shield from ground.
+
+
+Add more caps to motor vcc
 
 -- LAyout::-----------
 

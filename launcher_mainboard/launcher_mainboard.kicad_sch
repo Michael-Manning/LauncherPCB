@@ -15011,7 +15011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 361.95 208.28 0)
 			(effects
 				(font
@@ -16300,7 +16300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 361.95 149.86 0)
 			(effects
 				(font
@@ -19222,7 +19222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 361.95 93.98 0)
 			(effects
 				(font
@@ -22109,7 +22109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
 			(at 361.95 38.1 0)
 			(effects
 				(font
