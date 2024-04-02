@@ -13,6 +13,7 @@ Verify fan control is mapped to a pwm pin
 
 Mike says to disconnect USB shield from ground.
 
+Try UART_MODE_RS485_HALF_DUPLEX with esp32 to see if it simplifies UART control
 
 Add more caps to motor vcc
 
