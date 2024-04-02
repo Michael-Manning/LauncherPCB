@@ -18,6 +18,12 @@ Add more caps to motor vcc
 
 -- LAyout::-----------
 
+verify fan mosfet footprint
+
+add test point pads
+
+esd module might be too difficult to hand solder
+
 choose esp32 wroom 1 module without octal psram:
 https://www.atomic14.com/2023/11/21/esp32-s3-pins.html
 
