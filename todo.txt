@@ -17,6 +17,8 @@ Try UART_MODE_RS485_HALF_DUPLEX with esp32 to see if it simplifies UART control
 
 Add more caps to motor vcc
 
+switch out usbc connector with through hole version, or use part from JLC and buy assembly
+
 -- LAyout::-----------
 
 verify fan mosfet footprint
