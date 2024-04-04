@@ -4696,139 +4696,6 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -10308,7 +10175,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 142.24) (xy 40.64 142.24)
+			(xy 43.18 142.24) (xy 53.34 142.24)
 		)
 		(stroke
 			(width 0)
@@ -12048,7 +11915,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 144.78) (xy 53.34 144.78)
+			(xy 43.18 144.78) (xy 53.34 144.78)
 		)
 		(stroke
 			(width 0)
@@ -12175,16 +12042,6 @@
 			(type default)
 		)
 		(uuid "d258ec37-a544-40d8-85cc-4b07bdfce29b")
-	)
-	(wire
-		(pts
-			(xy 48.26 142.24) (xy 53.34 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ae5f42-dd7c-46da-a225-a0245064b8d2")
 	)
 	(wire
 		(pts
@@ -16600,7 +16457,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 29.21 144.78 180)
+		(at 38.1 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16609,7 +16466,7 @@
 		(fields_autoplaced yes)
 		(uuid "31fa706b-def4-4e7a-ae0c-47242a4c46ed")
 		(property "Reference" "J6"
-			(at 29.21 135.89 0)
+			(at 38.1 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16617,7 +16474,7 @@
 			)
 		)
 		(property "Value" "bat_con"
-			(at 29.21 138.43 0)
+			(at 38.1 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16625,7 +16482,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical"
-			(at 29.21 144.78 0)
+			(at 38.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16634,7 +16491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 144.78 0)
+			(at 38.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16643,7 +16500,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 29.21 144.78 0)
+			(at 38.1 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17132,6 +16989,119 @@
 			(project "launcher_mainboard"
 				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 34.29 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bb2145e-bca7-4da9-a3e2-d10560ba48a5")
+		(property "Reference" "J1"
+			(at 34.29 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 34.29 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
+			(at 38.1 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 38.1 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 34.29 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "36bb95b5-6d62-4946-96c5-49be219041e0")
+		)
+		(pin "A6"
+			(uuid "cdb586f8-98ce-4fde-8b93-b8d43b26aec3")
+		)
+		(pin "B1"
+			(uuid "1518b00e-5b6a-447d-9ed1-b73a6f81e52e")
+		)
+		(pin "A5"
+			(uuid "8e9c5521-fe95-4782-b5be-c65006f4ac95")
+		)
+		(pin "B4"
+			(uuid "35e43ec2-aa58-4e6a-87d9-7e5f8549a067")
+		)
+		(pin "B6"
+			(uuid "5d7141bc-8830-480d-a998-c656cbf89fae")
+		)
+		(pin "B9"
+			(uuid "147ab90c-3a86-4b4a-b3ed-e45df2539b39")
+		)
+		(pin "A7"
+			(uuid "637b8b3c-0edd-4000-96ee-fcdaef8047c7")
+		)
+		(pin "A8"
+			(uuid "98b3526a-3f2b-49d8-a842-b8fa39a7f35e")
+		)
+		(pin "A1"
+			(uuid "15a1697c-2d28-46f9-93a9-07a351553a98")
+		)
+		(pin "A12"
+			(uuid "113f0948-58ef-4554-80e0-fd836096e1a6")
+		)
+		(pin "A4"
+			(uuid "a9b187e7-ab2a-4ec4-ba07-21187fff518f")
+		)
+		(pin "A9"
+			(uuid "0be018a3-c98a-4e2c-81bc-3ef988d67846")
+		)
+		(pin "B7"
+			(uuid "58145fbe-3e80-4181-97af-2be0886bd264")
+		)
+		(pin "B5"
+			(uuid "d93b8e52-3915-4fbe-b213-08fc50c870c0")
+		)
+		(pin "B8"
+			(uuid "a586a6cb-510b-47d1-bb63-3af46483a619")
+		)
+		(pin "B12"
+			(uuid "37381e10-0af3-4dd4-b140-03c1fe791de4")
+		)
+		(instances
+			(project "launcher_mainboard"
+				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -19875,119 +19845,6 @@
 			(project "launcher_mainboard"
 				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 34.29 240.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78793ba1-69f4-4f90-b293-d458f55674e9")
-		(property "Reference" "J12"
-			(at 34.29 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 34.29 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S016JA1R1500"
-			(at 38.1 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 38.1 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 34.29 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S1"
-			(uuid "f5d26f8c-f537-4ac3-a6d4-fe39dc40d025")
-		)
-		(pin "B6"
-			(uuid "ca9be07e-a70c-4e2f-88f1-7c94c672eafa")
-		)
-		(pin "B5"
-			(uuid "4a943fe7-8296-44fe-85b3-7144fbe534cf")
-		)
-		(pin "B12"
-			(uuid "ecce08da-ef80-4c32-8bb1-5e3967a0f236")
-		)
-		(pin "A5"
-			(uuid "7f2f6759-5389-4e06-a816-c56a919545a9")
-		)
-		(pin "A7"
-			(uuid "db7ca81f-b1a3-4102-9e27-a93f152ce06f")
-		)
-		(pin "A12"
-			(uuid "f43d974a-acea-41ae-8810-aa22d8fa7d0e")
-		)
-		(pin "A8"
-			(uuid "c5230bbd-0e65-438b-be47-563a8f3de7a2")
-		)
-		(pin "B4"
-			(uuid "3bfce5d9-8807-4926-ae93-6b6254cbbcf3")
-		)
-		(pin "B8"
-			(uuid "8e7453b8-11a7-4f21-af60-e5c6340abf69")
-		)
-		(pin "B9"
-			(uuid "8a273939-10e3-4273-be36-a8b27a42a33a")
-		)
-		(pin "B7"
-			(uuid "b7b3b11e-92ba-40fa-adea-e01a9ee6becc")
-		)
-		(pin "A4"
-			(uuid "10a07103-353e-4341-b5cb-8ad067be229e")
-		)
-		(pin "A6"
-			(uuid "d336e38b-0263-4650-8a4b-2f1f80204a30")
-		)
-		(pin "B1"
-			(uuid "7b86696b-c303-4be0-8735-129dc864b147")
-		)
-		(pin "A1"
-			(uuid "159f37cf-c96d-4773-bff5-c947a8cd0408")
-		)
-		(pin "A9"
-			(uuid "a1ba299e-e5f0-4ee2-ad31-237c737da320")
-		)
-		(instances
-			(project "launcher_mainboard"
-				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -24348,74 +24205,6 @@
 			(project "launcher_mainboard"
 				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 44.45 142.24 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db2ec4e8-5b38-41c0-b13c-02098ad7fa78")
-		(property "Reference" "F1"
-			(at 44.45 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 44.45 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Bel_FC-203-22_Lateral_P17.80x5.00mm_D1.17mm_Horizontal"
-			(at 44.45 144.018 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 44.45 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c4d0e91-8c03-4de5-8e7f-bd23a36ff379")
-		)
-		(pin "2"
-			(uuid "066e0574-393a-4e7b-859d-c4b013cea72f")
-		)
-		(instances
-			(project "launcher_mainboard"
-				(path "/c708c50f-809b-4d12-a774-1744101f70a6"
-					(reference "F1")
 					(unit 1)
 				)
 			)

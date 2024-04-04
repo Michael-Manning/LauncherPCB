@@ -1,6 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "TCM2209-LA-T")(type "KiCad")(uri "${KIPRJMOD}/PartLibary/TMC2209-LA-T/2024-03-24_18-03-49.kicad_sym")(options "")(descr ""))
-  (lib (name "LM66200")(type "KiCad")(uri "${KIPRJMOD}/PartLibary/LM66200/2024-03-28_15-03-30.kicad_sym")(options "")(descr ""))
-  (lib (name "DT1042")(type "KiCad")(uri "${KIPRJMOD}/PartLibary/DT1042_04SO_7/DT1042-04SO-7.kicad_sym")(options "")(descr ""))
+  (lib (name "TCM2209-LA-T")(type "KiCad")(uri "${KIPRJMOD}/PartLibrary/TMC2209-LA-T/2024-03-24_18-03-49.kicad_sym")(options "")(descr ""))
+  (lib (name "LM66200")(type "KiCad")(uri "${KIPRJMOD}/PartLibrary/LM66200/2024-03-28_15-03-30.kicad_sym")(options "")(descr ""))
+  (lib (name "DT1042")(type "KiCad")(uri "${KIPRJMOD}/PartLibrary/DT1042_04SO_7/DT1042-04SO-7.kicad_sym")(options "")(descr ""))
 )
