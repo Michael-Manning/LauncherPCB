@@ -13,32 +13,19 @@ Verify fan control is mapped to a pwm pin
 
 Mike says to disconnect USB shield from ground.
 
-Try UART_MODE_RS485_HALF_DUPLEX with esp32 to see if it simplifies UART control
 
 Add more caps to motor vcc
 
-switch out usbc connector with through hole version, or use part from JLC and buy assembly
-
 -- LAyout::-----------
 
-verify fan mosfet footprint
-
-add test point pads
-
-esd module might be too difficult to hand solder
+Could space buttons further apart
 
 choose esp32 wroom 1 module without octal psram:
 https://www.atomic14.com/2023/11/21/esp32-s3-pins.html
 
-choose proper led footprint for both power smd and indicator LEDs
 
 Switch has incorrorect pads. Cannot find correct pad from datasheet :(
 
-verify fan connector for chosen fan.
-
-verify fan polarity
-
-verify fuse slot for chosen fuse
 
 download smd version of 2n3904
 
