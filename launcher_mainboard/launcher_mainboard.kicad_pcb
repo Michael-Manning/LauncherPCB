@@ -5084,8 +5084,8 @@
 		(at 119.4375 85)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D4"
-			(at 3.0625 0 0)
+		(property "Reference" "IND1"
+			(at 3.5625 0 0)
 			(layer "F.SilkS")
 			(uuid "658b2ac5-a361-4390-b771-cb5473db3e7d")
 			(effects
@@ -8591,7 +8591,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "65f209c8-7433-48d8-86d9-ccc0775b7466")
+			(uuid "62c86624-6e56-4bc0-9135-3c515365e488")
 		)
 	)
 	(footprint "RF_Module:ESP32-S3-WROOM-1"
@@ -13328,8 +13328,8 @@
 		(at 119.5 91)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D1"
-			(at 3 0 0)
+		(property "Reference" "POWER"
+			(at 4.5 0 0)
 			(layer "F.SilkS")
 			(uuid "1f73f1ea-04e8-4e95-9029-ad626c8cd86a")
 			(effects
@@ -13560,8 +13560,8 @@
 		(at 119.5 82)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D5"
-			(at 3 0 0)
+		(property "Reference" "IND2"
+			(at 3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "e5a15734-7550-4d5c-978c-ab2c09462a85")
 			(effects
@@ -15977,7 +15977,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b1e9beaa-0967-4acc-abd3-51402c4689e6")
+			(uuid "c6a5a804-3625-4fd4-b5cb-030473ed2994")
 			(effects
 				(font
 					(size 1 1)
@@ -15988,7 +15988,7 @@
 		(property "Value" "3.2mm_M3_Pad"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "21cced29-73da-43b5-bbc8-b53ee898203f")
+			(uuid "160ac2ae-561b-4014-8524-cc20e6c8e893")
 			(effects
 				(font
 					(size 1 1)
@@ -16042,7 +16042,7 @@
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "6cd42853-397e-43d0-9405-944f21ebe13f")
+			(uuid "4496579b-573b-472d-b68e-6b02b5a3f56f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -16053,12 +16053,12 @@
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "15686ef5-41cf-4ebf-b850-162591437d46")
+			(uuid "1257987a-6f69-42f8-8a29-cd2187405de5")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "dcec6a4c-77d5-4cb3-81c5-bf1cbf1b5d3c")
+			(uuid "09cef4d8-ccbf-4675-a262-a485205ce7ba")
 			(effects
 				(font
 					(size 1 1)
@@ -16072,7 +16072,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "65f209c8-7433-48d8-86d9-ccc0775b7466")
+			(uuid "f45ad659-9e3a-468a-9eed-ff8e73f09bea")
 		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
@@ -17986,7 +17986,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "e0b3eca6-336a-49a5-b089-c59ff58c51a5")
+			(uuid "0cc18079-32ab-4fcf-b9f5-910246efb3e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17997,7 +17997,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "f749c5fb-6f9f-4b0e-873a-731b8ebb757d")
+			(uuid "c8083402-2f48-49a3-9a33-f6079c2b526b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18046,7 +18046,7 @@
 			(drill 3.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "65f209c8-7433-48d8-86d9-ccc0775b7466")
+			(uuid "340af207-ebfe-44de-9018-9b43575fdab7")
 		)
 	)
 	(footprint "PTS636:SW_PTS636_CNK"
@@ -22824,6 +22824,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "1258d7d9-2a22-4aa9-abfb-35fbb7962af9")
+	)
+	(gr_text "+"
+		(at 123.5 100 0)
+		(layer "F.SilkS")
+		(uuid "75c365dc-94e2-44ac-8586-07324cb8f43a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 88.518885 104.492482)
