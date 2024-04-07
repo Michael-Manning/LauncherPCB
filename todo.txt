@@ -1,37 +1,17 @@
 -- schematic
 
-Determine if, where, and how large of capacitors are needed for each motor driver.
--see TMC2209 charge pump pins
--see recommended filtering for TMC2209 VS
-
-Calculate total power draw of system
-
-fan driver mosfet choice incorrect. Change or investigate 4 pin fan option.
-probably use this mosfet https://www.digikey.ca/en/products/detail/panjit-international-inc/PJC7400-R1-00001/14660010
-
-Verify fan control is mapped to a pwm pin
-
-Mike says to disconnect USB shield from ground.
-
-
-Add more caps to motor vcc
 
 -- LAyout::-----------
 
-more silkscreen lables. Led labels, external pin labels etc
-
-add fan connector polarity on silkscreen
-
-Could space buttons further apart
 
 choose esp32 wroom 1 module without octal psram:
 https://www.atomic14.com/2023/11/21/esp32-s3-pins.html
-
-
-Switch has incorrorect pads. Cannot find correct pad from datasheet :(
 
 
 download smd version of 2n3904
 
 
 
+import jlcpcb capabilities
+
+Ensure headers are not too close together. Measure thickness of female headers I have on hand
