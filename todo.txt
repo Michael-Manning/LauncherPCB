@@ -10,8 +10,3 @@ https://www.atomic14.com/2023/11/21/esp32-s3-pins.html
 
 download smd version of 2n3904
 
-
-
-import jlcpcb capabilities
-
-Ensure headers are not too close together. Measure thickness of female headers I have on hand
