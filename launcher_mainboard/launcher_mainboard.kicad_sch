@@ -23120,7 +23120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTS636:SW_PTS636_CNK"
+		(property "Footprint" "CustomFootprints:SW_PTS636_CNK"
 			(at 24.13 39.37 0)
 			(effects
 				(font
@@ -25229,7 +25229,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTS636:SW_PTS636_CNK"
+		(property "Footprint" "CustomFootprints:SW_PTS636_CNK"
 			(at 25.4 67.31 0)
 			(effects
 				(font
