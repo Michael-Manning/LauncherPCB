@@ -10247,6 +10247,17 @@
 			(pintype "passive")
 			(uuid "674c9b0b-4d73-40b1-a886-c2b9d8fde369")
 		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/PTS636SM43SMTRLFS.stp"
+			(offset
+				(xyz 0.25 0.06 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -12062,6 +12073,17 @@
 			(pintype "power_in")
 			(uuid "323eec6b-510b-4e45-9834-cdcf3d2e17fd")
 		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/BTT TMC2209-V1.2.STEP"
+			(offset
+				(xyz 1.5 11.5 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "CustomFootprints:birdie_img"
 		(layer "F.Cu")
@@ -12778,6 +12800,17 @@
 			(pintype "power_in")
 			(uuid "4fe64582-1734-46fa-8200-909d471402f2")
 		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/BTT TMC2209-V1.2.STEP"
+			(offset
+				(xyz 1.5 11.5 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -13364,6 +13397,17 @@
 			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "98b3a1e9-2ead-481c-8eb1-c56bb0e9ee2e")
+		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/DT1042-04SO-7.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-23"
@@ -14829,6 +14873,17 @@
 			(pintype "power_in")
 			(uuid "5acb0957-3a51-4cfd-8b01-1d5e3e0ada19")
 		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/BTT TMC2209-V1.2.STEP"
+			(offset
+				(xyz 1.5 11.5 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
@@ -16222,6 +16277,17 @@
 			(pinfunction "VS")
 			(pintype "power_in")
 			(uuid "fd42373c-bcff-4913-b571-b66b314596e6")
+		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/BTT TMC2209-V1.2.STEP"
+			(offset
+				(xyz 1.5 11.5 7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
@@ -17921,6 +17987,17 @@
 			(pintype "output+no_connect")
 			(uuid "c68a7bf2-d5c9-45b9-93d5-e037e6082a25")
 		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/LM66200DRLR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
@@ -18674,6 +18751,17 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(uuid "cd2e70cb-bb13-4dea-98ac-a35ca29cda09")
+		)
+		(model "${KIPRJMOD}/PartLibrary/3D_Models/PTS636SM43SMTRLFS.stp"
+			(offset
+				(xyz 0.25 0.06 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad_TopBottom"
