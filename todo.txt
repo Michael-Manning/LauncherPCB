@@ -4,9 +4,32 @@
 -- LAyout::-----------
 
 
+LED search: https://www.digikey.ca/en/products/filter/led-indication-discrete/105?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOcgJkpAF0CAHAFyhAGVWAnASwB2AcxABfArHrQQySOmz4ipEABYADNWqMW7SF16CR48JQAcUpKky4CxSGTWNjAWhoIZUXgFdFdsgFYnYzd7EAwcABNtEHhpPii9ZzA1CB0OEAJWAE9mHA40LGRRUSA
+
+update via sizes to cheaper option in jlcpcb quote page
+
 choose esp32 wroom 1 module without octal psram:
 https://www.atomic14.com/2023/11/21/esp32-s3-pins.html
 
+verify motor connector pins spacing.
+
+Go through Dan's notes.
+
+Change eps32 thermal pad via sizes
+
+Could order double row female headers of an exact length instead of cutting them up myself if they're cheap.
+
+verify TMC module pins one more time. 
+
+Order double sided motor female JST cables, or find a way to adapt current cables to board.
+NOTE: 
+	It seems like some motor cables use a 4 pin connector on the board instead of another 6 pin.
+	If I went with the 4 pin 2.5mm connector, I might even be able to use my current header style 
+	connectors for some time before buying/making proper cables.
+
+
+	Should see what's most widely availble and go with that. 
+	Could also see how hard it is to crimp my own connectors. Could make my own custom length cables.
 
 download smd version of 2n3904
 
