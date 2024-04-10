@@ -223,4 +223,15 @@
 		(remove_unused_layers no)
 		(uuid "b495d3d7-dd54-4b42-b842-f15013b0ee14")
 	)
+	(model "${KIPRJMOD}/PartLibrary/3D_Models/BTT TMC2209-V1.2.STEP"
+		(offset
+			(xyz 1.24 11.45 8)
+		)
+		(scale
+			(xyz 1 1.1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
