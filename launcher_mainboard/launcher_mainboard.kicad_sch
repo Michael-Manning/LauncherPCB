@@ -14360,7 +14360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "INDICATOR_LED_1"
+		(property "Value" "RED_LED_1"
 			(at 175.26 95.5674 90)
 			(effects
 				(font
@@ -14825,7 +14825,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "20"
 			(at 210.82 85.09 90)
 			(effects
 				(font
@@ -16168,7 +16168,7 @@
 				)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "100"
 			(at 157.48 83.82 90)
 			(effects
 				(font
@@ -17250,7 +17250,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "INDICATOR_LED_2"
+		(property "Value" "BLUE_LED_2"
 			(at 228.6 96.8374 90)
 			(effects
 				(font
@@ -18457,7 +18457,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "100"
 			(at 260.35 54.6099 0)
 			(effects
 				(font
@@ -22462,7 +22462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N4004"
+		(property "Value" "SD103AW-TP"
 			(at 137.16 31.242 90)
 			(effects
 				(font
@@ -22471,7 +22471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 142.875 30.48 0)
 			(effects
 				(font
@@ -23625,7 +23625,7 @@
 				)
 			)
 		)
-		(property "Value" "POWER_LED"
+		(property "Value" "GREEN_LED"
 			(at 252.73 63.5 0)
 			(effects
 				(font
