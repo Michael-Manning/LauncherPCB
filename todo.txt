@@ -7,19 +7,11 @@ order relay module and add additional flyback diode
 
 need female headers for motor drivers
 
-Check fan header one more time. Measure current fans and see if they're 2.0 or 2.54 mm
-
 LED search: https://www.digikey.ca/en/products/filter/led-indication-discrete/105?s=N4IgjCBcpgbFoDGUBmBDANgZwKYBoQB7KAbRAGYBOcgJkpAF0CAHAFyhAGVWAnASwB2AcxABfArHrQQySOmz4ipEABYADNWqMW7SF16CR48JQAcUpKky4CxSGTWNjAWhoIZUXgFdFdsgFYnYzd7EAwcABNtEHhpPii9ZzA1CB0OEAJWAE9mHA40LGRRUSA
 
 update via sizes to cheaper option in jlcpcb quote page
 
-choose esp32 wroom 1 module without octal psram:
-https://www.atomic14.com/2023/11/21/esp32-s3-pins.html
-
 Go through Dan's notes.
-
-look at pictures of xh connector and see if the order of the cables matches the direction the connector is facing
-in my schematic. I'll have to test to see what order I was using again or if it matters
 
 Change eps32 thermal pad via sizes
 
