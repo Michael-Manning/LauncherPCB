@@ -66,8 +66,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -3.1242 -1.8796)
-		(end -3.1242 -1.03124)
+		(start -2.854873 -1.943443)
+		(end -2.854873 -1.095083)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -76,8 +76,8 @@
 		(uuid "7ecf9ef8-acf2-4171-bb57-3c624435636e")
 	)
 	(fp_line
-		(start -3.1242 1.03124)
-		(end -3.1242 1.8796)
+		(start -2.81389 1.017757)
+		(end -2.81389 1.866117)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -86,8 +86,8 @@
 		(uuid "f97a5d9b-abab-4c3a-bc41-7002d603d994")
 	)
 	(fp_line
-		(start -3.1242 1.8796)
-		(end 3.1242 1.8796)
+		(start -2.81389 1.866117)
+		(end 3.43451 1.866117)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -96,8 +96,8 @@
 		(uuid "a047aba5-6428-45a4-8b03-73296cdce085")
 	)
 	(fp_line
-		(start 3.1242 -1.8796)
-		(end -3.1242 -1.8796)
+		(start 3.393527 -1.943443)
+		(end -2.854873 -1.943443)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -106,8 +106,8 @@
 		(uuid "2e2944e0-2f5b-4af5-a674-e2212510d877")
 	)
 	(fp_line
-		(start 3.1242 -1.03124)
-		(end 3.1242 -1.8796)
+		(start 3.393527 -1.095083)
+		(end 3.393527 -1.943443)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -116,8 +116,8 @@
 		(uuid "8898864a-55e8-4a26-8a3a-cd961e9bc48c")
 	)
 	(fp_line
-		(start 3.1242 1.8796)
-		(end 3.1242 1.03124)
+		(start 3.43451 1.866117)
+		(end 3.43451 1.017757)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -330,5 +330,16 @@
 		(size 2.000301 1.499998)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4e455772-e770-4277-bcb3-98d2b0b47dea")
+	)
+	(model "${KIPRJMOD}/PartLibrary/3D_Models/PTS636SM43SMTRLFS.stp"
+		(offset
+			(xyz 0.3 0.06 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

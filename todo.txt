@@ -3,23 +3,5 @@
 
 -- LAyout::-----------
 
-update via sizes to cheaper option in jlcpcb quote page.
-
-support forums imply that the mimum annular ring section of the capabilities only refers to holes for through hole 
-components. The hole and via size restrictions are specified seperately as 0.15 preffered minimum hole and total diameter
-size of 0.15 larger than the hole. To meet cheap manufacturing option, set vias to 0.3 hole and 0.45 diameter
-
-Go through Dan's notes.
-
-Change eps32 thermal pad via sizes
-
 
 -- Verification ------------
-
-go over manufactering capabilities one more time with fresh eyes.
-
-verify TMC module pins one more time. 
-
-verify USB pins are the right way around
-
-verify fan mosfet pins
